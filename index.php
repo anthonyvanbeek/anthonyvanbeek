@@ -334,7 +334,7 @@
       <div class="container">
         <h2>Contact me</h2>
         <div class="columns">
-          <div class="column padded">
+          <div class="column padded details">
             <h3>Your details</h3>
               <form id="submitForm" class="contact-form" action="submit.php" method="post">
                 <div class="field">
