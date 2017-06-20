@@ -409,8 +409,7 @@
 <!--  -->
 <script type="text/javascript">
 
-document.addEventListener("DOMContentLoaded", function(event) {
-
+$(window).load(function(){
 
   var $grid = $('.grid').isotope({
     // options
@@ -420,6 +419,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
       gutter: '.gutter-sizer'
     }
   });
+
+
+});
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+
 
   $('.filters').on( 'click', 'a', function() {
     var filterValue = $(this).attr('data-filter');
