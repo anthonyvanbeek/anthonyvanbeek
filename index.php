@@ -409,8 +409,8 @@
 <!--  -->
 <script type="text/javascript">
 
-$(window).load(function(){
 
+window.onload = function(){
   var $grid = $('.grid').isotope({
     // options
     itemSelector: '.grid-item',
@@ -420,19 +420,21 @@ $(window).load(function(){
     }
   });
 
+  $('.filters').on( 'click', 'a', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
 
-});
+  });
+
+}
+
+
 
 document.addEventListener("DOMContentLoaded", function(event) {
 
 
 
 
-  $('.filters').on( 'click', 'a', function() {
-    var filterValue = $(this).attr('data-filter');
-    $grid.isotope({ filter: filterValue });
-
-  });
 
   var
 			// ACTIVITY INDICATOR
