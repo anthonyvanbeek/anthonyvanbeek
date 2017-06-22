@@ -46,7 +46,7 @@
     </div>
 
     <div id="portfolio" class="container is-fluid portfolio">
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-10{fill:#ff5912;}.cls-2{fill:#fff;}</style></defs><title>section</title><polygon class="cls-10" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-2" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 67"><defs><style>.cls-10{fill:#ff5912;}.cls-2{fill:#fff;}</style></defs><title>section</title><polygon class="cls-10" points="841 67 841 0 0 0 841 67"/><polygon class="cls-2" points="0 67 841 0 0 0 0 67"/></svg>
       <div class="container">
         <h2>Portfolio</h2>
         <div class="columns">
@@ -261,7 +261,7 @@
       </div>
     </div>
     <div id="skills" class="container is-fluid is-paddingless skills">
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-11{fill:#fff;}.cls-12{fill:#000;}</style></defs><title>section</title><polygon class="cls-11" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-12" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 67"><defs><style>.cls-11{fill:#fff;}.cls-12{fill:#000;}</style></defs><title>section</title><polygon class="cls-11" points="841 67 841 0 0 0 841 67"/><polygon class="cls-12" points="0 67 841 0 0 0 0 67"/></svg>
       <div class="container">
         <h2>Skills</h2>
         <div class="columns is-multiline">
@@ -329,7 +329,7 @@
       </div>
     </div>
     <div id="contact" class="container is-fluid is-paddingless contact">
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-13{fill:#000;}.cls-14{fill:#8CC63F;}</style></defs><title>section</title><polygon class="cls-13" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-14" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 67"><defs><style>.cls-13{fill:#000;}.cls-14{fill:#8CC63F;}</style></defs><title>section</title><polygon class="cls-13" points="841 67 841 0 0 0 841 67"/><polygon class="cls-14" points="0 67 841 0 0 0 0 67"/></svg>
       <div class="container">
         <h2>Contact me</h2>
         <div class="columns">
@@ -399,7 +399,7 @@
     </div>
 
     <div class="container is-fluid is-paddingless copyright">
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-15{fill:#0071BC;}.cls-16{fill:#fff;}</style></defs><title>section</title><polygon class="cls-15" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-16" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841 67"><defs><style>.cls-15{fill:#0071BC;}.cls-16{fill:#fff;}</style></defs><title>section</title><polygon class="cls-15" points="841 67 841 0 0 0 841 67"/><polygon class="cls-16" points="0 67 841 0 0 0 0 67"/></svg>
       <p>Absolutely zero copyright 2017. Take what you want.</p>
     </div>
 
