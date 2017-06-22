@@ -18,13 +18,13 @@
       <div class="columns row--reverse">
         <div class="column navigation-area">
           <nav class="flex bold">
-            <a class="">
+            <a href="#portfolio" class="">
               Portfolio
             </a>
-            <a class="">
+            <a href="#skills" class="">
               Skills
             </a>
-            <a class="">
+            <a href="#contact" class="">
               Contact
             </a>
           </nav>
@@ -46,12 +46,15 @@
       </div>
     </div>
 
-    <div class="container-fluid portfolio">
+    <div id="portfolio" class="container-fluid portfolio">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-10{fill:#ff5912;}.cls-2{fill:#fff;}</style></defs><title>section</title><polygon class="cls-10" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-2" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <div class="container">
         <h2>Portfolio</h2>
         <div class="columns">
           <nav class="column flex is-half filters">
+            <a data-filter="" class="filter">
+              All
+            </a>
             <a data-filter=".website" class="filter">
               Websites
             </a>
@@ -261,7 +264,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid skills">
+    <div id="skills" class="container-fluid skills">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-11{fill:#fff;}.cls-12{fill:#000;}</style></defs><title>section</title><polygon class="cls-11" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-12" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <div class="container">
         <h2>Skills</h2>
@@ -329,7 +332,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid contact">
+    <div id="contact" class="container-fluid contact">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-13{fill:#000;}.cls-14{fill:#8CC63F;}</style></defs><title>section</title><polygon class="cls-13" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-14" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <div class="container">
         <h2>Contact me</h2>
@@ -387,7 +390,7 @@
           <div class="column padded details">
             <h3>My details</h3>
             <p>Anthony van Beek</p>
-            <p><a href="#">hello@anthonyvanbeek.com</a></p>
+            <p><a href="mailto:hello@anthonyvanbeek.com">hello@anthonyvanbeek.com</a></p>
             <p>+27 72 858 3456</p>
             <p>skype : liquidspeed</p>
             <p>twitter : @anthonyvanbeek</p>
@@ -403,9 +406,9 @@
 
 
 
-  <!-- <script id="__bs_script__">//<![CDATA[
+  <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.12'><\/script>".replace("HOST", location.hostname));
-//]]></script> -->
+//]]></script>
 <!--  -->
 <script type="text/javascript">
 
