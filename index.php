@@ -16,7 +16,7 @@
 <body>
     <div class="container">
       <div class="columns row--reverse">
-        <div class="column navigation-area">
+        <div class="column is-one-third navigation-area is-paddingless">
           <nav class="flex bold">
             <a href="#portfolio" class="">
               Portfolio
@@ -33,28 +33,24 @@
 
           </div>
         </div>
-        <div class="column is-8 flex">
-
+        <div class="column is-two-thirds flex">
           <div class="intro">Hello,</div>
-
         </div>
-
       </div>
 
-      <div class="intro-text">
-        <p>I’m an experienced mulitfunctional designer / developer on a mission to help the web suck less.</p>
+      <div class="columns">
+        <div class="column intro-text">
+          <p>I’m an experienced mulitfunctional designer / developer on a mission to help the web suck less.</p>
+        </div>
       </div>
     </div>
 
-    <div id="portfolio" class="container-fluid portfolio">
+    <div id="portfolio" class="container is-fluid portfolio">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-10{fill:#ff5912;}.cls-2{fill:#fff;}</style></defs><title>section</title><polygon class="cls-10" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-2" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <div class="container">
         <h2>Portfolio</h2>
         <div class="columns">
-          <nav class="column flex is-half filters">
-            <a data-filter="" class="filter">
-              All
-            </a>
+          <nav class="column is-half filters is-paddingless">
             <a data-filter=".website" class="filter">
               Websites
             </a>
@@ -67,7 +63,7 @@
           </nav>
         </div>
       </div>
-      <div class="container-fluid items">
+      <div class="container is-fluid items">
         <div class="grid">
           <div class="gutter-sizer"></div>
           <a href="img/portfolio/full/absa-graduate-programme-presentation.jpg" data-imagelightbox="f" class="grid-item presentation">
@@ -264,7 +260,7 @@
         </div>
       </div>
     </div>
-    <div id="skills" class="container-fluid skills">
+    <div id="skills" class="container is-fluid is-paddingless skills">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-11{fill:#fff;}.cls-12{fill:#000;}</style></defs><title>section</title><polygon class="cls-11" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-12" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <div class="container">
         <h2>Skills</h2>
@@ -332,11 +328,21 @@
         </div>
       </div>
     </div>
-    <div id="contact" class="container-fluid contact">
+    <div id="contact" class="container is-fluid is-paddingless contact">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-13{fill:#000;}.cls-14{fill:#8CC63F;}</style></defs><title>section</title><polygon class="cls-13" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-14" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <div class="container">
         <h2>Contact me</h2>
         <div class="columns">
+
+          <div class="column padded details">
+            <h3>My details</h3>
+            <p>Anthony van Beek</p>
+            <p><a href="mailto:hello@anthonyvanbeek.com">hello@anthonyvanbeek.com</a></p>
+            <p>+27 72 858 3456</p>
+            <p>skype : liquidspeed</p>
+            <p>twitter : @anthonyvanbeek</p>
+          </div>
+
           <div class="column padded details">
             <h3>Your details</h3>
               <form id="submitForm" class="contact-form" action="submit.php" method="post">
@@ -380,6 +386,7 @@
                     </div>
                   </div>
                 </div>
+                <div class="is-clearfix"></div>
                 <div id="result"></div>
               </form>
 
@@ -387,19 +394,11 @@
 
 
           </div>
-          <div class="column padded details">
-            <h3>My details</h3>
-            <p>Anthony van Beek</p>
-            <p><a href="mailto:hello@anthonyvanbeek.com">hello@anthonyvanbeek.com</a></p>
-            <p>+27 72 858 3456</p>
-            <p>skype : liquidspeed</p>
-            <p>twitter : @anthonyvanbeek</p>
-          </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid copyright">
+    <div class="container is-fluid is-paddingless copyright">
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.89 67.217"><defs><style>.cls-15{fill:#0071BC;}.cls-16{fill:#fff;}</style></defs><title>section</title><polygon class="cls-15" points="841.89 67.217 841.89 0 0 0 841.89 67.217"/><polygon class="cls-16" points="0 67.217 841.89 0 0 0 0 67.217"/></svg>
       <p>Absolutely zero copyright 2017. Take what you want.</p>
     </div>
