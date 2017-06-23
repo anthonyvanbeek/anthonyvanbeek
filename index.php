@@ -6,6 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Anthony van Beek | Back end, Front end, UX</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,700,900" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/browser-favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="img/taskbar-shortcut-icon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="img/desktop-shortcut-icon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="img/iPhone-Retina.png"> // 120px
+  <link rel="apple-touch-icon" sizes="180x180" href="img/iPhone-6-Plus.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/iPad-Retina.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/iPad-Pro.png">
   <script src="https://use.fontawesome.com/795a123f7f.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/isotope.pkgd.min.js" type="text/javascript"></script>
@@ -14,6 +21,16 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-223219-57', 'auto');
+    ga('send', 'pageview');
+
+  </script>
     <div class="container">
       <div class="columns row--reverse">
         <div class="column is-one-third navigation-area is-paddingless">
