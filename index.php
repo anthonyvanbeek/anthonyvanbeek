@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="img/browser-favicon-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="img/taskbar-shortcut-icon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="img/desktop-shortcut-icon-96x96.png" sizes="96x96">
-  <link rel="apple-touch-icon" href="img/iPhone-Retina.png"> // 120px
+  <link rel="apple-touch-icon" href="img/iPhone-Retina.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/iPhone-6-Plus.png">
   <link rel="apple-touch-icon" sizes="152x152" href="img/iPad-Retina.png">
   <link rel="apple-touch-icon" sizes="167x167" href="img/iPad-Pro.png">
